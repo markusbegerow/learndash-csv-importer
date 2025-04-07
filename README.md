@@ -8,8 +8,6 @@ The **LearnDash CSV Importer** is a powerful WordPress plugin designed to stream
 
 Donate link: <a href="https://www.paypal.com/donate?hosted_button_id=7EL8K7ELFWHSY">Buy Me a Coffee?</a>
 
----
-
 ## Features
 
 ### 1. **CSV Import Capabilities**
@@ -39,8 +37,6 @@ Donate link: <a href="https://www.paypal.com/donate?hosted_button_id=7EL8K7ELFWH
 - Detects and reports missing lessons or invalid lesson IDs during topic/quiz creation.
 - Provides feedback on existing lessons, topics, or quizzes to avoid duplicates.
 
----
-
 ## Installation
 
 1. **Upload the Plugin**:
@@ -49,8 +45,6 @@ Donate link: <a href="https://www.paypal.com/donate?hosted_button_id=7EL8K7ELFWH
    - Log in to your WordPress admin panel and activate the plugin under `Plugins > Installed Plugins`.
 3. **Navigate to the Importer**:
    - Go to `LearnDash Upload Importer` in the WordPress admin menu.
-
----
 
 ## How to Use
 
@@ -83,8 +77,6 @@ course_id,lesson_title,lesson_order,topic_title,topic_order,type
 - Logs are displayed in the `Protokoll` section.
 - You can delete the log file using the `Log-Datei löschen` button.
 
----
-
 ## Advanced Features
 
 ### File Validation
@@ -102,8 +94,6 @@ The plugin ensures:
 
 ### Custom Post Management
 - Automatically checks if lessons, topics, or quizzes already exist to avoid duplicates.
-
----
 
 ## Development
 
@@ -127,8 +117,6 @@ The plugin ensures:
 - **`learndash_csv_importer_create_topic($course_id, $lesson_title, $topic_title, $topic_order)`**
 - **`learndash_csv_importer_create_quiz($course_id, $lesson_title, $quiz_title, $quiz_order)`**
 
----
-
 ## FAQ
 
 ### 1. What happens if a course, lesson, topic, or quiz already exists?
@@ -143,13 +131,9 @@ No, the plugin requires specific column names (`course_id`, `lesson_title`, etc.
 ### 4. Where are the logs stored?
 Logs are saved in the `wp-content/uploads/` directory as `learndash_import_log.txt`.
 
----
-
 ## License
 
 This project is licensed under the GPL License. See the LICENSE file for details.
-
----
 
 ## Contributing
 
